@@ -1,0 +1,109 @@
+header{
+	background-color: black;
+	height: 120px;
+}
+
+header div{
+	width: 1000px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin: auto;
+	padding-left: 40px;
+	box-sizing: border-box;
+
+}
+
+h1{
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+main
+{
+	width: 1000px;
+	margin: auto;
+	padding: 40px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #d1d1d1;
+}
+
+.navigation ul{
+	display: flex;
+	width: 1000;
+}
+
+.navigation ul li{
+	background-color: white;
+	border: 1px solid #d1d1d1;
+	text-align: center;
+	font-size: 16px;
+	color: #000;
+	height: 33px;
+	flex: 1;
+	line-height: 33px;
+	box-sizing: border-box;
+
+}
+
+.navigation ul li:nth-child(2){
+	margin-left: 14px;
+	margin-right: 14px;
+}
+
+section{
+	margin-top: 20px;
+}
+
+.subtitle{
+	font-size: 20px;
+	color: #000;
+	font-weight: bold;
+	line-height: 20px;
+	padding: 20px 0 20px 0;
+	border-bottom: 1px solid #454545;
+	box-sizing: border-box;
+}
+
+.component{
+	margin-top: 30px;
+	border: 1px solid #d1d1d1;
+}
+
+.component-title{
+	height: 46px;
+	padding-left: 15px;
+	font-size: 16px;
+	color: #333;
+	font-weight: bold;
+	background-color: #f7f7f7;
+	border-bottom: 1px soild #d1d1d1;
+	line-height: 46px;
+}
+
+.content-area {
+	padding: 30px;
+}
+
+.content-area p{
+	margin: auto;
+	font-size: 12px;
+	color: #000;
+}
+
+footer{
+	font-size: 12px;
+	line-height: 2em;
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px 0 59px 0;
+}
+
+footer address{
+	color: #999;
+}
+
+footer div{
+	color: #000;
+}
